@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
     res.send('Hello World! Otwo new bro!! nabooo!!');
 });
 
-app.get('/someone', (req, res) => {
+app.get('/anyone', (req, res) => {
     res.send('Hello World! Namkee');
 });
 
