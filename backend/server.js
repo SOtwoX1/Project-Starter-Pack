@@ -14,7 +14,11 @@ mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopol
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send('Hello World! Otwo new bro!!');
+    res.send('Hello World! Otwo new bro!! nabooo!!');
+});
+
+app.get('/someone', (req, res) => {
+    res.send('Hello World! Namkee');
 });
 
 app.listen(port, () => {
